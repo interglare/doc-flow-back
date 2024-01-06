@@ -5,7 +5,7 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { User } from './entities/user.entity';
 import { GetUsersQueryDto } from './dto/get-users.dto';
-import { Pagination } from 'src/paginate';
+import { Pagination } from './../paginate';
 
 @Injectable()
 export class UserService {
